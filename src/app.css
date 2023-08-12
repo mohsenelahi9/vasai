@@ -1,0 +1,63 @@
+.main{
+    text-align: center;
+    justify-content: center;
+    display: flex ;
+    padding: 90px 0 90px 0;
+}
+.sub{
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    width: 35%;
+    box-shadow: 11 px 12px 13px 12px rgb(207, 207, 207);
+    padding-top: 30px;
+    border-radius: 60px;
+    background-color: rgb(128, 128, 128);
+}
+.img{
+    padding-top: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+.profile{
+    height: 100px;
+    width: 100px;
+    border-radius: 130px;
+}
+
+input{
+    width: 300px;
+    height: 50px;
+    border-radius: 60px;
+    box-shadow: inset 0px 0px 25px 0px rgb(8, 8, 8);
+    border: none;
+    outline: none;
+    background-color: fff;
+
+}
+
+.name{
+    padding-left: 20px;
+    font-size: 15px;
+    background-color: #fff;
+
+}
+.sec-input{
+    padding-top: 10px;
+}
+button{
+    width: 100px;
+    height: 50px;
+    border-radius: 60px;
+    background-color: #fff;
+    color: black;
+    font-size: 25px;
+}
+.btn{
+    padding-top: 10px;
+}
+extra{
+    font-size: 300px;
+    font-weight: 400;
+}
