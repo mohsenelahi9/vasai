@@ -1,20 +1,24 @@
 import React, { Component } from 'react';
 import './app.css';
-import profile from './img/images (1).png';
-
+import bgi from './img/desktop.jpg';
 
 function App (){
     return(
- <div className="main">
+ <div  className="main">
+<div className='text'>
+<span>hello</span>
+</div>
+    
     <div className="sub">
+        
          <div>
+            
              <div className="img">
-                 <img src={profile} alt='profile'/>
-                 
-                 
+             
             </div>
             <div>
-                <h1>Login Page</h1>
+                <h1>Hi ,wellcome to <span className='vis'>VIS</span><span className='ai'>AI</span></h1>
+                <p>Let's get strat login to your account</p>
             </div>
             <div>
                 <input type='text' placeholder='Username' className='name'/>
@@ -22,16 +26,28 @@ function App (){
             <div className='sec-input'>
                 <input type='password' placeholder='Password' className='name'/>
             </div>
-            <div className='btn'>
-            <button>Login</button>
-            </div>
+            
 
             <p className='extra'>
-                <a href='#'> forgot password    </a> <br/> <a href='#'>    sign up </a>
+                <a > forgot password    </a> 
+            </p>
+
+            <div className='btn'>
+            <button className='login' >Log in</button>
+            
+            <button  className='google'>  login with Google </button>
+            </div>
+<br/><br/><br/><br/><br/>
+            <p className='extra'>
+                I don't have an account <br/>
+                 <a  href='#'> create account </a>
             </p>
         </div>
+        
     </div>
+    
  </div>
+
     );
 }
 export default App  ;
